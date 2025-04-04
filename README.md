@@ -1,16 +1,18 @@
-## Hi there 👋
+# 🌍 The Laws of Empowerment
 
-<!--
-**lawsofempowerment/lawsofempowerment** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**A manifesto and movement for building a compassionate, awakened humanity — guided by empathy, truth, and balance.**
 
-Here are some ideas to get you started:
+This site hosts the digital home of *The Laws of Empowerment*, created by **Geoff & The Scribe**.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🔗 Live Site: [https://lawsofempowerment.github.io](https://lawsofempowerment.github.io) *(replace with your actual link once published)*
+
+📜 Manifesto includes:
+- The 10 foundational laws
+- A vision of ethical, AI-aligned human progress
+- A call to believe in better — and act on it
+
+📬 Contact: [lawsofempowerment@protonmail.com](mailto:lawsofempowerment@protonmail.com)
+
+---
+
+*Built with love, clarity, and purpose.*

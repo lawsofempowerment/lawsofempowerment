@@ -1,38 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap');
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    padding: 0;
+    color: #EFEFEF;
+    background-color: #101820;
+    line-height: 1.6;
 }
+
 header {
     text-align: center;
-    padding: 2em;
-    background: #111;
-    color: #fff;
+    padding: 3rem 1rem;
+    background: linear-gradient(rgba(16,24,32,0.9), rgba(16,24,32,0.7)), url('background.jpg');
+    background-size: cover;
 }
+
 .logo {
-    width: 80px;
-    height: auto;
-    margin-bottom: 10px;
+    width: 120px;
+    margin-bottom: 1rem;
 }
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #D4AF37;
+    margin-bottom: 0.5rem;
+}
+
 .subtitle {
+    font-size: 1.2rem;
     font-style: italic;
+    opacity: 0.8;
 }
+
 main {
     max-width: 800px;
-    margin: 2em auto;
-    padding: 0 1em;
+    margin: 0 auto;
+    padding: 2rem 1rem;
 }
-.laws h2 {
-    text-align: center;
+
+.laws {
+    margin-top: 2rem;
 }
+
+.laws ol {
+    padding-left: 1.5rem;
+}
+
+.laws li {
+    margin-bottom: 1.2rem;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s forwards;
+}
+
+.laws li:nth-child(odd) {
+    animation-delay: 0.2s;
+}
+
+.laws li:nth-child(even) {
+    animation-delay: 0.4s;
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; transform: translateY(0); }
+}
+
 footer {
     text-align: center;
-    padding: 2em 1em;
-    background: #222;
-    color: #ccc;
+    padding: 1.5rem;
+    background-color: #0C141B;
+    color: #CCCCCC;
 }
-a {
-    color: #ddd;
+
+footer a {
+    color: #D4AF37;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #FFFFFF;
 }
